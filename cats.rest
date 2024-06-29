@@ -1,0 +1,51 @@
+// LOCAL ### GET home GET http://localhost:3001
+
+### GET all cats GET http://localhost:3001/cats
+
+### GET specific cat GET http://localhost:3001/cats/667fa2efe6ac81ff36c68cda
+
+### Add cat (POST) POST http://localhost:3001/cats Content-Type: application/json
+
+{
+  "name": "Whiskers",
+  "breed": "Domestic Shorthair",
+  "gender": "Male",
+  "color": "Gray"
+}
+
+### Update cat (PUT) PUT http://localhost:3001/cats/667fa2efe6ac81ff36c68cda Content-Type: application/json
+
+{
+  "name": "Whiskers",
+  "breed": "Domestic Shorthair",
+  "gender": "Male",
+  "color": "Black"
+}
+
+### Delete cat DELETE http://localhost:3001/cats/<id>
+
+// PRODUCTION ### GET home GET https://cse341bh-project2.onrender.com
+
+### GET all cats GET https://cse341bh-project2.onrender.com/cats
+
+### GET specific cat GET https://cse341bh-project2.onrender.com/cats/667fa35ce6ac81ff36c68cdd
+
+### Add cat (POST cat) POST https://cse341bh-project2.onrender.com/cats Content-Type: application/json
+
+{
+  "name": "Lucy",
+  "breed": "Ragdoll",
+  "gender": "Female",
+  "color": "Blue"
+}
+
+### Change cat information (PUT) PUT https://cse341bh-project2.onrender.com/cats/667fa35ce6ac81ff36c68cdd Content-Type: application/json
+
+{
+  "name": "Lulu",
+  "breed": "Ragdoll",
+  "gender": "Female",
+  "color": "Blue"
+}
+
+### Remove a cat (DELETE) DELETE https://cse341bh-project2.onrender.com/cats/<id>
