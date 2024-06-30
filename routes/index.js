@@ -3,8 +3,8 @@ const passport = require('passport');
 const router = require('express').Router();
 router.use('/', require('./swagger'));
 // router.use('/', require('./home'));
-router.use('/cars', require('./motos'));
-router.use('/dogs', require('./cats'));
+router.use('/motos', require('./motos'));
+router.use('/cats', require('./cats'));
 
 router.get('/login', passport.authenticate('github'), (req, res) => {});
 
