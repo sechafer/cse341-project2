@@ -24,13 +24,13 @@
 
 ### Delete cat DELETE http://localhost:3001/cats/<id>
 
-// PRODUCTION ### GET home GET https://cse341bh-project2.onrender.com
+// PRODUCTION ### GET home GET https://cse341-project2-3j28.onrender.com
 
-### GET all cats GET https://cse341bh-project2.onrender.com/cats
+### GET all cats GET https://cse341-project2-3j28.onrender.com/cats
 
-### GET specific cat GET https://cse341bh-project2.onrender.com/cats/667fa35ce6ac81ff36c68cdd
+### GET specific cat GET https://cse341-project2-3j28.onrender.com/cats/667fa35ce6ac81ff36c68cdd
 
-### Add cat (POST cat) POST https://cse341bh-project2.onrender.com/cats Content-Type: application/json
+### Add cat (POST cat) POST https://cse341-project2-3j28.onrender.com/cats Content-Type: application/json
 
 {
   "name": "Lucy",
@@ -39,7 +39,7 @@
   "color": "Blue"
 }
 
-### Change cat information (PUT) PUT https://cse341bh-project2.onrender.com/cats/667fa35ce6ac81ff36c68cdd Content-Type: application/json
+### Change cat information (PUT) PUT https://cse341-project2-3j28.onrender.com/cats/667fa35ce6ac81ff36c68cdd Content-Type: application/json
 
 {
   "name": "Lulu",
@@ -48,4 +48,4 @@
   "color": "Blue"
 }
 
-### Remove a cat (DELETE) DELETE https://cse341bh-project2.onrender.com/cats/<id>
+### Remove a cat (DELETE) DELETE https://cse341-project2-3j28.onrender.com/cats/<id>

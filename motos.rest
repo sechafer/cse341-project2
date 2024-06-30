@@ -1,8 +1,8 @@
 // LOCAL ### GET home GET http://localhost:3001
 
-### GET all cars GET http://localhost:3001/cars
+### GET all motos GET http://localhost:3001/motos
 
-### GET specific car GET http://localhost:3001/cars/65b44999999999909db0c26eaf35826 ### Add car (POST) POST http://localhost:3001/cars Content-Type: application/json
+### GET specific car GET http://localhost:3001/motos/65b44999999999909db0c26eaf35826 ### Add car (POST) POST http://localhost:3001/motos Content-Type: application/json
 
 {
   "year": "2018",
@@ -14,7 +14,7 @@
   "gearCount": "6",
   "shifterType": "Foot"
 }
-### Update car (PUT) PUT http://localhost:3001/cars/65b4491409db0c26eaf35826 Content-Type: application/json
+### Update car (PUT) PUT http://localhost:3001/motos/65b4491409db0c26eaf35826 Content-Type: application/json
 
 {
   "year": "2020",
@@ -27,15 +27,15 @@
   "shifterType": "Foot"
 }
 
-### Delete car DELETE http://localhost:3001/cars/65b5531192d8bd32775c664f
+### Delete car DELETE http://localhost:3001/motos/65b5531192d8bd32775c664f
 
-// PRODUCTION ### GET home GET https://cse341bh-project2.onrender.com
+// PRODUCTION ### GET home GET https://cse341-project2-3j28.onrender.com
 
-### GET all cars GET https://cse341bh-project2.onrender.com/cars
+### GET all motos GET https://cse341-project2-3j28.onrender.com/motos
 
-### GET specific car GET https://cse341bh-project2.onrender.com/cars/65b447ec09db0c26eaf35824
+### GET specific car GET https://cse341-project2-3j28.onrender.com/motos/65b447ec09db0c26eaf35824
 
-### Add car (POST car) POST https://cse341bh-project2.onrender.com/cars Content-Type: application/json
+### Add car (POST car) POST https://cse341-project2-3j28.onrender.com/motos Content-Type: application/json
 
 {
   "year": "2020",
@@ -48,7 +48,7 @@
   "shifterType": "Foot"
 }
 
-### Change car information (PUT) PUT https://cse341bh-project2.onrender.com/cars/65b447ec09db0c26eaf35824 Content-Type: application/json
+### Change car information (PUT) PUT https://cse341-project2-3j28.onrender.com/motos/65b447ec09db0c26eaf35824 Content-Type: application/json
 
 {
   "year": "2022",
@@ -60,4 +60,4 @@
   "gearCount": "6",
   "shifterType": "Foot"
 }
-### Remove a car (DELETE) DELETE https://cse341bh-project2.onrender.com/cars/65b5552136a57602a84003
+### Remove a car (DELETE) DELETE https://cse341-project2-3j28.onrender.com/motos/65b5552136a57602a84003

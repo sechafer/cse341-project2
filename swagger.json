@@ -41,7 +41,7 @@
         }
       }
     },
-    "/cars/{id}": {
+    "/motos/{id}": {
       "get": {
         "tags": [
           "motos"
@@ -157,7 +157,7 @@
         }
       }
     },
-    "/cars/": {
+    "/motos/": {
       "get": {
         "tags": [
           "motos"
@@ -228,7 +228,7 @@
         }
       }
     },
-    "/dogs/{id}": {
+    "/cats/{id}": {
       "get": {
         "tags": [
           "cats"
@@ -332,7 +332,7 @@
         }
       }
     },
-    "/dogs/": {
+    "/cats/": {
       "get": {
         "tags": [
           "cats"
