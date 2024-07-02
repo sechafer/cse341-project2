@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const catsController = require('../controllers/cats.js');
-const validation = require('../middleware/validate');
-const { isAuthenticated } = require('../middleware/authenticate');
+const validation = require('../middleware/validate.js');
+const { isAuthenticated } = require('../middleware/authenticate.js');
 
 router.get('/:id', validation.checkMongoId, catsController.getSingle);
 router.get('/', catsController.getAll);
